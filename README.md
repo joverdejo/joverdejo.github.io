@@ -1,2 +1,2 @@
-# joshuaverdejo.com
+# joverdejo.github.io
 Personal Website
