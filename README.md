@@ -1,3 +1,3 @@
-# joverdejo.github.io
-###### (joshuaverdejo.com)
-Personal Website
+# joshuaverdejo.com
+### (joverdejo.github.io)
+Joshua Verdejo's Personal Website
