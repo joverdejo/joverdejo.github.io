@@ -15,13 +15,24 @@ h1 {
   font-size: 80px;
 }
 
+h2 {
+  transition: background 1.5s;  
+}
+
+h3 {
+  transition: background 1.5s;  
+}
+
+h4 {
+  transition: background 1.5s;
+}
+
 p {
   padding-bottom: 90px;
 }
 
 
 .project {
-  color: gray;
   font-family: Raleway;
   font-size: 70px;
   margin-left: auto;
@@ -36,7 +47,6 @@ p {
 }
 
 .about {
-  color: gray;
   font-family: Raleway;
   font-size: 70px;
   margin-left: auto;
@@ -71,9 +81,9 @@ p {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 290%;
+    height: 390%;
     z-index: -1;
-    background: #EEE;
+    background: white;
     transition: background 2s;
 }
 
