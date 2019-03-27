@@ -1,6 +1,6 @@
 body {
   background-attachment: fixed;
-  background-image: url("darkTile.png");
+  background-image: url("/darkTile.png");
   background-repeat: repeat;
   color: white;
   font-family: Product Sans;
