@@ -1,18 +1,25 @@
 body {
-  background-attachment: fixed;
-  background-image: url("lightTile.png");
-  background-repeat: repeat;
+  background: black; 
   color: #808080;
-  font-family: Product Sans;
+  font-family: Raleway;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 600px;
+  max-width: 60%;
+}
+h1 {
+  font-family: Raleway;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  font-size: 80px;
 }
 
-h1 {
-  color: blue;
-}
-p {
-  color: red;
+h2 {
+  color: gray;
+  font-family: Raleway;
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 800px;
 }
