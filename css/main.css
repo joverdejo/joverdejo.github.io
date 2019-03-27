@@ -16,14 +16,17 @@ h1 {
 }
 
 h2 {
+  width: 260px;
   transition: background 1.5s;  
 }
 
 h3 {
+  width: 200px;
   transition: background 1.5s;  
 }
 
 h4 {
+  width: 252px;
   transition: background 1.5s;
 }
 
@@ -66,7 +69,6 @@ p {
   margin-right: auto;
   -webkit-transition: background-color 2s;
   transition: background-color 2s;
-  transition-property: #bg,all;
   
 }
 
@@ -95,5 +97,25 @@ h3:hover ~ .bg {
     background: red;
 }
 h4:hover ~ .bg {
+    background: green;
+}
+
+h2:hover ~ h3 {
+    background: red;
+}
+h2:hover ~ h4 {
+    background: green;
+}
+h4:hover ~ h2 {
+    background: blue;
+}
+h4:hover ~ h3 {
+    background: red;
+}
+
+h3:hover ~ h2 {
+    background: blue;
+}
+h3:hover ~ h4{
     background: green;
 }
