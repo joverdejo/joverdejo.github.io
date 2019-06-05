@@ -3,4 +3,22 @@
 Joshua Verdejo's Personal Website
 
 Todo:
-Make buttons for Contact, about, projects
+~~Make buttons for Contact, about, projects~~
+
+Fill out Contact page
+  * add Gmail
+  * add Instagram
+  * add LinkedIn
+  * add Facebook
+  * add Email
+  
+Fill out About page
+  * add Resume
+  * add Personal Statement
+
+Fill out Project page
+  * Lassie (google site)
+  * This website (github Repo)
+  * BCI research (Link to youtube playlist)
+  * Graduation cap (maybe?)
+  
