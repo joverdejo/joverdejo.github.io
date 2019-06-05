@@ -10,7 +10,6 @@ Fill out Contact page
   * add Instagram
   * add LinkedIn
   * add Facebook
-  * add Email
   
 Fill out About page
   * add Resume
