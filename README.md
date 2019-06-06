@@ -5,11 +5,7 @@ Joshua Verdejo's Personal Website
 Todo:
 ~~Make buttons for Contact, about, projects~~
 
-Fill out Contact page
-  * add Gmail
-  * add Instagram
-  * add LinkedIn
-  * add Facebook
+~~Fill out Contact page~~
   
 Fill out About page
   * add Resume
