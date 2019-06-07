@@ -37,6 +37,9 @@ div {
   justify-content:space-around;
 }
 a {
+  font-family: Raleway;
+  color: #808080;
+  text-decoration: none;
   width: 100%;
   margin: 3px;
 }
