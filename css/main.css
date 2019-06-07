@@ -13,6 +13,11 @@ h1 {
   font-size: 80px;
 }
 
+h2 {
+  font-family: Raleway;
+  font-size: 15px;
+}
+
 .title_button{
   text-decoration: none;
   font-family: Raleway;
