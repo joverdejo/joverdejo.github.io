@@ -1,55 +1,38 @@
-video {
-  clip-path: url(#clip-00);
+body {
+  margin: 0;
 }
 
-h1 {
-  font-family: Raleway;
-  font-size: 80px;
-}
-
-h2 {
-  font-family: Raleway;
-  font-size: 15px;
-}
-
-.title_button{
-  text-decoration: none;
-  font-family: Raleway;
-  color: white;
-  font-size: 60px;
-}
-
-.projects_button{
-  background: green;
-}
-
-.about_button{
-  background: red;  
-}
-
-.contact_button{
-  background: blue;
-}
-
-.home_button{
-  background: gold;
-}
-
-.video-container video {
-  display: block;
-  width: 100%;
-}
-
-.clipping-paths {
+svg {
   width: 0;
   height: 0;
   position: absolute;
 }
 
-a {
-  font-family: Raleway;
-  color: #808080;
-  text-decoration: none;
-  width: 100%;
-  margin: 3px;
+.video-container {
+  video {
+    width: 100%;
+    display: block;
+    
+    clip-path: url(#clip-00);
+  }
+
+  margin: 40px auto;
+
+  outline: 1px solid #dadada;
+  
+  &:nth-of-type(1) {
+    width: 25%;
+  }
+  
+  &:nth-of-type(2) {
+    width: 50%;
+  }
+  
+  &:nth-of-type(3) {
+    width: 75%;
+  }
+  
+  &:nth-of-type(4) {
+    width: 100%;
+  }
 }
