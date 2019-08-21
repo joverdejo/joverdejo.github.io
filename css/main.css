@@ -8,6 +8,10 @@ body {
   max-width: 60%;
 }
 
+video {
+  clip-path: url(#clip-00);
+}
+
 h1 {
   font-family: Raleway;
   font-size: 80px;
@@ -35,6 +39,21 @@ h2 {
 
 .contact_button{
   background: blue;
+}
+
+.home_button{
+  background: gold;
+}
+
+.video-container video {
+  display: block;
+  width: 100%;
+}
+
+.clipping-paths {
+  width: 0;
+  height: 0;
+  position: absolute;
 }
 
 div {
