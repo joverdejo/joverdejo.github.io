@@ -8,11 +8,9 @@ svg {
   position: absolute;
 }
 
-.video-container {
-  video {
-    width: 100%;
-    display: block;
-    
-    clip-path: url(#clip-00);
-  }
-  }
+.video-container video {
+  width: 100%;
+  display: block;
+  -webkit-clip-path: url(#clip-00);
+          clip-path: url(#clip-00);
+}
