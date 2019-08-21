@@ -9,13 +9,10 @@ svg {
 }
 
 div:not(.color-wrapper) {
-  width: 100%;
-  height: 60%;
   -webkit-clip-path: url(#clip-00);
   clip-path: url(#clip-00);
   
 }
 .color-wrapper {
-  background-color: black;
+  background-color: purple;
 }
-
