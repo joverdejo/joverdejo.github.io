@@ -14,5 +14,5 @@ div:not(.color-wrapper) {
   
 }
 .color-wrapper {
-  background-color: #3C4043;
+  background-color: gray;
 }
