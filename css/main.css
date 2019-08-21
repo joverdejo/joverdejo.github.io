@@ -8,11 +8,9 @@ svg {
   position: absolute;
 }
 
-div:not(.color-wrapper) {
+.video-container video {
+  width: 50%;
+  display: block;
   -webkit-clip-path: url(#clip-00);
-  clip-path: url(#clip-00);
-  
-}
-.color-wrapper {
-  background-color: purple;
+          clip-path: url(#clip-00);
 }
