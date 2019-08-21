@@ -1,19 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+  font-family: Helvetica Neue, bold;
+    height: 100vh;
+  overflow: hidden;
 }
 
-svg {
-  width: 0;
-  height: 0;
+/* Video */
+
+.video-background {
+  background: url(https://images.unsplash.com/photo-1519373344801-14c1f9539c9c?w=1920&h=1080&fit=crop&crop=bottom) no-repeat center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.video-foreground,
+.video-background iframe {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
-.video-container{
-  video {
-  display: block;
-  -webkit-clip-path: url(#clip-00);
-          clip-path: url(#clip-00);
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    height: 300%;
+    top: -100%;
   }
-  width: 50%;
-  margin: 40px auto;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
   }
+}
+
+/* Knockout Text */
+
+.knockout-text {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+    font-size: 1000%;
+  font-weight: 900;
+  letter-spacing: 0.0em;
+    margin: auto;
+  user-select: none;  
+}
+
+.light-theme .knockout-text {
+  background-color: white;
+    color: #000;
+    mix-blend-mode: screen;
+}
+
+.dark-theme .knockout-text {
+  background-color: #000;
+    color: #fff;
+    mix-blend-mode: multiply;
+}
+
+/* Change Theme Button */
+
+.theme-btn {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-family: inherit;
+  font-size: calc(15px + 0.1vw + 0.5vh);
+  border-width: 0.15em;
+  border-style: solid;
+  border-radius: 0.8em;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0.8em 1.2em;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.light-theme .theme-btn {
+  color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+.dark-theme .theme-btn {
+  color: #eee;
+  border-color: #eee;
+}
