@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background: black;
 }
 
 svg {
@@ -9,9 +8,11 @@ svg {
   position: absolute;
 }
 
-.video-container video {
-  width: 100%;
-  display: block;
+div:not(.color-wrapper) {
   -webkit-clip-path: url(#clip-00);
-          clip-path: url(#clip-00);
+  clip-path: url(#clip-00);
+  
+}
+.color-wrapper {
+  background-color: #3C4043;
 }
