@@ -56,10 +56,6 @@ h2 {
   position: absolute;
 }
 
-div {
-  display:flex;
-  justify-content:space-around;
-}
 a {
   font-family: Raleway;
   color: #808080;
