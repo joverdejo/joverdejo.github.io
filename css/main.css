@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, sans-serif;
-    height: 100vh;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -121,3 +121,26 @@ body {
     background-color: #eee;
   border-color: #eee;
 }
+
+
+/* Basic info */
+
+.basic-name {
+  position: absolute;
+  top:;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
