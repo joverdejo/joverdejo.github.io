@@ -59,48 +59,18 @@ body {
   letter-spacing: 0em;
   margin: auto;
   user-select: none;
-  animation-duration: .35s;
-  -webkit-animation-duration: .35s;
 }
 
 .light-theme .knockout-text {
   background-color: #fff;
   color: #000;
   mix-blend-mode: screen;
-  -webkit-animation-name: d2l;
-  animation-name: d2l;
 }
 
 .dark-theme .knockout-text {
   background-color: #000;
   color: #fff;
   mix-blend-mode: multiply;
-  -webkit-animation-name: l2d;
-  animation-name: l2d;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes l2d {
-  from {background-color: white;}
-  to {background-color: black;}
-}
-
-/* Standard syntax */
-@keyframes l2d {
-  from {background-color: white;}
-  to {background-color: black;}
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes d2l {
-  from {background-color: black;}
-  to {background-color: white;}
-}
-
-/* Standard syntax */
-@keyframes d2l {
-  from {background-color: black;}
-  to {background-color: white;}
 }
 
 
