@@ -11,7 +11,7 @@ body {
 /* Video */
 
 .video-background {
-  background: #838585;
+  background: #838585 center;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -21,7 +21,7 @@ body {
   z-index: -1;
 }
 .video-foreground,
-.video-background iframe {
+.video-background video {
   position: absolute;
   top: 0;
   left: 0;
