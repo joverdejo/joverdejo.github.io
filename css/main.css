@@ -76,7 +76,7 @@ body {
 /* Detail Text */
 
 .detail-text {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   position: absolute;
   top: calc(30px + 30vh);
   display: flex;
@@ -116,11 +116,11 @@ body {
 .light-theme .theme-btn {
   color: #1a1a1a;
   border-color: #1a1a1a;
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
 
 .dark-theme .theme-btn {
   color: #eee;
-    background-color: #eee;
+  background-color: #eee;
   border-color: #eee;
 }
