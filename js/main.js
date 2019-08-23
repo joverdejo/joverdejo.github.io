@@ -17,8 +17,6 @@ window.addEventListener("DOMContentLoaded", () => {
       //Add dark theme
       document.body.classList.add('dark-theme');
 
-      //Set button text
-      themeType.textContent = 'Light';
 
     } else {
 
@@ -27,9 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
       //Add light theme
       document.body.classList.add('light-theme');
-
-      //Set button text
-      themeType.textContent = 'Dark';
+      
 
     }
   });
