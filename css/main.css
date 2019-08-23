@@ -98,15 +98,11 @@ body {
 
 .theme-btn {
   position: absolute;
-  top: 1em;
-  left: 1em;
-  font-family: inherit;
-  font-size: calc(15px + 1vw + 1vh);
-  border-width: .15em;
-  border-style: solid;
+  top: 3em;
+  left: 3em;
   border-radius: 100%;
   margin: 0 auto;
-  padding: 0.8em .8em;
+  padding: 1em 1em;
   cursor: pointer;
   outline: none;
   white-space: nowrap;
