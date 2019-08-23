@@ -93,7 +93,6 @@ body {
 }
 
 
-
 /* Change Theme Button */
 
 .theme-btn {
@@ -101,10 +100,10 @@ body {
   top: 1em;
   left: 1em;
   font-family: inherit;
-  font-size: calc(15px + 0.1vw + 0.1vh);
+  font-size: calc(15px + 1vw + 1vh);
   border-width: .15em;
   border-style: solid;
-  border-radius: 1em;
+  border-radius: 100%;
   margin: 0 auto;
   padding: 0.8em .8em;
   cursor: pointer;
@@ -116,11 +115,11 @@ body {
 .light-theme .theme-btn {
   color: #1a1a1a;
   border-color: #1a1a1a;
-  background-color: #1a1a1a;
+    background-color: #1a1a1a;
 }
 
 .dark-theme .theme-btn {
   color: #eee;
-  background-color: #eee;
+    background-color: #eee;
   border-color: #eee;
 }
