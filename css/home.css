@@ -57,14 +57,14 @@
 }
 
 .dropdown-content a {
-  width: 120px;
+  width: 200px;
   height: 60px;
   padding: 20px 0px;
   text-decoration: none;
-    transition: 0.3s;
+  transition: 0.3s;
+  font-size: 45px;
   display: block;
   text-align: right;
-  
 }
 
 .dark-theme .dropdown-content a {
@@ -76,7 +76,7 @@
 }
 
 .dropdown-content a:hover {
-  font-size: 30px;
+  font-size: 55px;
 }
 
 .dropdown:hover .dropdown-content {
