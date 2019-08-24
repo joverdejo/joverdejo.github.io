@@ -75,19 +75,19 @@
   color: black;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover, .dropdown-content a.hover_effect{
   font-size: 30px;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown.hover_effect .dropdown-content {
   opacity: 1;
 }
 
-.dark-theme .dropdown:hover .dropbtn {
+.dark-theme .dropdown:hover .dropbtn, .dark-theme .dropdown.hover_effect .dropbtn{
   background-color: white;
 }
 
-.light-theme .dropdown:hover .dropbtn {
+.light-theme .dropdown:hover .dropbtn, .light-theme .dropdown.hover_effect .dropbtn{
   background-color: black;
 }
 
@@ -115,36 +115,36 @@
   color: white;
 }
 
-.page-text .pop1:hover .popimg1{
+.page-text .pop1:hover .popimg1, .page-text .pop1.hover_effect .popimg3{
   opacity: 1;
 }
-.page-text .pop1:hover .caption{
-  opacity: 1;
-}
-
-.page-text .pop2:hover .popimg2{
-  opacity: 1;
-}
-.page-text .pop2:hover .caption{
+.page-text .pop1:hover .caption, .page-text .pop1.hover_effect .caption{
   opacity: 1;
 }
 
-.page-text .pop3:hover .popimg3{
+.page-text .pop2:hover .popimg2, .page-text .pop2.hover_effect .popimg3{
   opacity: 1;
 }
-.page-text .pop3:hover .caption{
+.page-text .pop2:hover .caption, .page-text .pop2.hover_effect .caption{
   opacity: 1;
 }
 
-.page-text .pop1:hover{
+.page-text .pop3:hover .popimg3, .page-text .pop3.hover_effect .popimg3{
+  opacity: 1;
+}
+.page-text .pop3:hover .caption, .page-text .pop3.hover_effect .caption{
+  opacity: 1;
+}
+
+.page-text .pop1:hover, .page-text .pop1.hover_effect{
   color: green;
 }
 
-.page-text .pop2:hover{
+.page-text .pop2:hover, .page-text .pop2.hover_effect{
   color: red;
 }
 
-.page-text .pop3:hover{
+.page-text .pop3:hover, .page-text .pop3.hover_effect{
   color: blue;
 }
 
