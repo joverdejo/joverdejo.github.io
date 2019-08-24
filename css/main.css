@@ -6,6 +6,7 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   height: 100vh;
   overflow: hidden;
+  transition:.2s;
 }
 
 
@@ -121,3 +122,4 @@ body {
     background-color: #eee;
   border-color: #eee;
 }
+
