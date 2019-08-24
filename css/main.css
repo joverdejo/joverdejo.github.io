@@ -8,6 +8,17 @@ body {
   overflow: hidden;
 }
 
+.dark-theme
+{
+    background: black;
+}
+
+
+.light-theme
+{
+    background: white;
+}
+
 /* Video */
 
 .video-background {
@@ -98,8 +109,8 @@ body {
 
 .theme-btn {
   position: absolute;
-  top: 3em;
-  left: 3em;
+  top: 9%;
+  left: 3%;
   border-radius: 100%;
   margin: 0 auto;
   padding: 1em 1em;
@@ -120,3 +131,4 @@ body {
     background-color: #eee;
   border-color: #eee;
 }
+
