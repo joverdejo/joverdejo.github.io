@@ -75,19 +75,19 @@
   color: black;
 }
 
-.dropdown-content a:hover, .dropdown-content a.hover_effect{
+.dropdown-content a:hover {
   font-size: 30px;
 }
 
-.dropdown:hover .dropdown-content, .dropdown.hover_effect .dropdown-content {
+.dropdown:hover .dropdown-content {
   opacity: 1;
 }
 
-.dark-theme .dropdown:hover .dropbtn, .dark-theme .dropdown.hover_effect .dropbtn{
+.dark-theme .dropdown:hover .dropbtn {
   background-color: white;
 }
 
-.light-theme .dropdown:hover .dropbtn, .light-theme .dropdown.hover_effect .dropbtn{
+.light-theme .dropdown:hover .dropbtn {
   background-color: black;
 }
 
@@ -115,36 +115,36 @@
   color: white;
 }
 
-.page-text .pop1:hover .popimg1, .page-text .pop1.hover_effect .popimg3{
+.page-text .pop1:hover .popimg1{
   opacity: 1;
 }
-.page-text .pop1:hover .caption, .page-text .pop1.hover_effect .caption{
-  opacity: 1;
-}
-
-.page-text .pop2:hover .popimg2, .page-text .pop2.hover_effect .popimg3{
-  opacity: 1;
-}
-.page-text .pop2:hover .caption, .page-text .pop2.hover_effect .caption{
+.page-text .pop1:hover .caption{
   opacity: 1;
 }
 
-.page-text .pop3:hover .popimg3, .page-text .pop3.hover_effect .popimg3{
+.page-text .pop2:hover .popimg2{
   opacity: 1;
 }
-.page-text .pop3:hover .caption, .page-text .pop3.hover_effect .caption{
+.page-text .pop2:hover .caption{
   opacity: 1;
 }
 
-.page-text .pop1:hover, .page-text .pop1.hover_effect{
+.page-text .pop3:hover .popimg3{
+  opacity: 1;
+}
+.page-text .pop3:hover .caption{
+  opacity: 1;
+}
+
+.page-text .pop1:hover{
   color: green;
 }
 
-.page-text .pop2:hover, .page-text .pop2.hover_effect{
+.page-text .pop2:hover{
   color: red;
 }
 
-.page-text .pop3:hover, .page-text .pop3.hover_effect{
+.page-text .pop3:hover{
   color: blue;
 }
 
@@ -163,7 +163,7 @@
   position: absolute;
   left: 105%;
   z-index:-1;
-  top: 50%;
+  top: 0;
   opacity: 0;
   width: 70%;
   transition: 0.5s;

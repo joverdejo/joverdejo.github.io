@@ -122,8 +122,3 @@ body {
     background-color: #eee;
   border-color: #eee;
 }
-
-.hover {
--webkit-user-select: none;
--webkit-touch-callout: none;        
-}
