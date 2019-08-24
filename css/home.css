@@ -175,7 +175,7 @@
   position: absolute;
   left: 120%;
   z-index:-1;
-  top: 80%;
+  top: 60%;
   opacity: 0;
   width: 70%;
   transition: 0.5s;
