@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   height: 100vh;
   overflow: hidden;
 }
@@ -77,7 +77,6 @@ body {
 /* Detail Text */
 
 .detail-text {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   position: absolute;
   top: calc(30px + 30vh);
   display: flex;
@@ -121,4 +120,3 @@ body {
     background-color: #eee;
   border-color: #eee;
 }
-
