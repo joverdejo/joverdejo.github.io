@@ -179,7 +179,18 @@
 }
 
 .dark-theme .caption{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
   
+}
+
+.dark-theme
+{
+    background: black;
+}
+
+
+.light-theme
+{
+    background: white;
 }
