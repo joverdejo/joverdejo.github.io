@@ -163,7 +163,7 @@
   position: absolute;
   left: 105%;
   z-index:-1;
-  top: 40%;
+  top: 50%;
   opacity: 0;
   width: 70%;
   transition: 0.5s;
