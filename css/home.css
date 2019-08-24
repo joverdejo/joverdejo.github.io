@@ -33,7 +33,6 @@
   color: #838585; 
 }
 
-
 .dropbtn {
   background-color: gray;
   border: none;
@@ -164,7 +163,7 @@
   position: absolute;
   left: 120%;
   z-index:-1;
-  top: 40%;
+  top: 60%;
   opacity: 0;
   width: 70%;
   transition: 0.5s;
@@ -180,7 +179,7 @@
 }
 
 .dark-theme .caption{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   
 }
