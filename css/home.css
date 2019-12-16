@@ -63,7 +63,7 @@
   text-decoration: none;
   transition: 0.3s;
   font-size: 45px;
-  display: none;
+  display: block;
   text-align: right;
 }
 
@@ -81,7 +81,6 @@
 
 .dropdown:hover .dropdown-content {
   opacity: 1;
-  display: block;
 }
 
 .dark-theme .dropdown:hover .dropbtn {
