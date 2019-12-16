@@ -187,7 +187,7 @@
   position: absolute;
   left: 105%;
   z-index:-1;
-  top: 0%;
+  top: 10%;
   opacity: 0;
   transition: 0.5s;
 }
