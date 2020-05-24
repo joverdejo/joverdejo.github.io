@@ -1,0 +1,32 @@
+.info-img{
+    width: 70%;
+    position: absolute;
+    left: 105%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .caption{
+    position: absolute;
+    left: 105%;
+    top: -4%;
+    opacity: 0;
+    width: 70%;
+    transition: 0.5s;
+    font-size: 60%;
+    font-weight:100;
+    text-align: center;
+  }
+  
+  .light-theme .caption{
+      background-color: white;
+      color: black;
+    
+  }
+  
+  .dark-theme .caption{
+      background-color: black;
+      color: white;
+    
+  }
