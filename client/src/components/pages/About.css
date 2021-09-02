@@ -1,0 +1,12 @@
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+.dark-theme a{
+    color: white;
+}
+.light-theme a{
+    color: black;
+}
+

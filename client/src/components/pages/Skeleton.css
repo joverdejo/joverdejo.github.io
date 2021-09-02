@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height: 100vh;
+    overflow: hidden;
+    transition:.2s; 
+  }
+  
+  
+  /* Video */
+  
+  .video-background {
+    background: #838585 center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .video-foreground,
+  .video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    .video-foreground {
+      height: 300%;
+      top: -100%;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .video-foreground {
+      width: 300%;
+      left: -100%;
+    }
+  }
+  
+  /* Knockout Text */
+  
+  .knockout-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: calc(10px + 5vw + 3vh);
+    font-weight: 900;
+    letter-spacing: 0em;
+    margin: auto;
+    user-select: none;
+    /* transition:color 0.3s .2s, background-color 0.2s; */
+  }
+  
+
+  .light-theme .knockout-text {
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    
+  }
+  
+  .dark-theme .knockout-text {
+    background-color: #000;
+    color: #fff;
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+  
+  
+  /* Detail Text */
+  
+  .detail-text {
+    position: absolute;
+    top: calc(30px + 30vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: calc(1px + 1vw + 1.5vh);
+    font-weight: 10;
+    letter-spacing: 0em;
+    margin: auto;
+    user-select: none;
+    /* transition:.2s; */
+  }
+  
+  .dark-theme .detail-text{
+      color:white;
+  }
+  .light-theme .detail-text{
+    color:black;
+}
+  
+  /* Change Theme Button */
+  
+  .theme-btn {
+    position: absolute;
+    top: 9%;
+    left: 3%;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 1em 1em;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+    transition:.2s;
+  }
+  
+  .light-theme .theme-btn {
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+      background-color: #1a1a1a;
+  }
+  
+  .dark-theme .theme-btn {
+    color: #eee;
+      background-color: #eee;
+    border-color: #eee;
+  }
+  
+
+
+
+  /* Menu CSS */
+  .dropbtn {
+    border: none;
+    padding: 12px 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+  }
+  
+  .dark-theme .dropbtn {
+    background-color: white;
+  }
+  
+  .light-theme .dropbtn {
+    background-color: black;
+    }
+  .dropdown {
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    transition: 0.3s;
+  }
+  
+  .nav-button {
+
+    padding: 20px 0px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 45px;
+    display: block;
+    text-align: right;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  .dark-theme .nav-button {
+    color: white;
+  }
+  
+  .light-theme .nav-button {
+    color: black;
+  }
+  
+  .dropdown-content .nav-button:hover {
+    font-size: 55px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    opacity: 1;
+  }
+  
+  .dark-theme .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  
+  .light-theme .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+  .detail-text .pop1{
+    transition: .2s;    
+  }
+
+  .detail-text .pop1:hover{
+    color: green;
+  }
+  
