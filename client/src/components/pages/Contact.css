@@ -1,0 +1,9 @@
+.info-img{
+    width: 60%;
+    position: absolute;
+    left: 110%;
+    top: 5%;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+  }
