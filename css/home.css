@@ -186,11 +186,11 @@
 }
 
 .info-img {
-  width: 70%;
+  width: 50%;
   position: absolute;
-  left: 105%;
+  left: 120%;
   z-index: -1;
-  top: 10%;
+  top: 4%;
   opacity: 0;
   transition: 0.5s;
 }
