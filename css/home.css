@@ -16,7 +16,7 @@
   color: #838585;
 }
 
-.page-text{
+.page-text {
   position: absolute;
   top: 30%;
   left: 7%;
@@ -30,7 +30,7 @@
   letter-spacing: 0em;
   margin: auto;
   user-select: none;
-  color: #838585; 
+  color: #838585;
 }
 
 .dropbtn {
@@ -95,155 +95,148 @@
   background-color: black;
 }
 
-.light-theme .page-text .pop1{
+.light-theme .page-text .pop1 {
   color: black;
 }
 
-.light-theme .page-text .pop2{
+.light-theme .page-text .pop2 {
   color: black;
 }
 
-.light-theme .page-text .pop3{
+.light-theme .page-text .pop3 {
   color: black;
 }
 
-.dark-theme .page-text .pop1{
+.dark-theme .page-text .pop1 {
   color: white;
 }
 
-.dark-theme .page-text .pop2{
+.dark-theme .page-text .pop2 {
   color: white;
 }
 
-.dark-theme .page-text .pop3{
+.dark-theme .page-text .pop3 {
   color: white;
 }
 
-.page-text .pop1:hover .popimg1{
+.page-text .pop1:hover .popimg1 {
   opacity: 1;
 }
-.page-text .pop1:hover .caption{
-  opacity: 1;
-}
-
-.page-text .pop2:hover .popimg2{
-  opacity: 1;
-}
-.page-text .pop2:hover .caption{
+.page-text .pop1:hover .caption {
   opacity: 1;
 }
 
-.page-text .pop3:hover .popimg3{
+.page-text .pop2:hover .popimg2 {
   opacity: 1;
 }
-.page-text .pop3:hover .caption{
+.page-text .pop2:hover .caption {
   opacity: 1;
 }
 
-.page-text .pop1:hover{
+.page-text .pop3:hover .popimg3 {
+  opacity: 1;
+}
+.page-text .pop3:hover .caption {
+  opacity: 1;
+}
+
+.page-text .pop1:hover {
   color: green;
 }
 
-.page-text .pop2:hover{
+.page-text .pop2:hover {
   color: red;
 }
 
-.page-text .pop3:hover{
+.page-text .pop3:hover {
   color: blue;
 }
 
-.page-text .pop1:active .popimg1{
+.page-text .pop1:active .popimg1 {
   opacity: 1;
 }
-.page-text .pop1:active .caption{
-  opacity: 1;
-}
-
-.page-text .pop2:active .popimg2{
-  opacity: 1;
-}
-.page-text .pop2:active .caption{
+.page-text .pop1:active .caption {
   opacity: 1;
 }
 
-.page-text .pop3:active .popimg3{
+.page-text .pop2:active .popimg2 {
   opacity: 1;
 }
-.page-text .pop3:active .caption{
+.page-text .pop2:active .caption {
   opacity: 1;
 }
 
-.page-text .pop1:active{
+.page-text .pop3:active .popimg3 {
+  opacity: 1;
+}
+.page-text .pop3:active .caption {
+  opacity: 1;
+}
+
+.page-text .pop1:active {
   color: green;
 }
 
-.page-text .pop2:active{
+.page-text .pop2:active {
   color: red;
 }
 
-.page-text .pop3:active{
+.page-text .pop3:active {
   color: blue;
 }
 
-
-.info-img{
+.info-img {
   width: 70%;
   position: absolute;
   left: 105%;
-  z-index:-1;
+  z-index: -1;
   top: 10%;
   opacity: 0;
   transition: 0.5s;
 }
 
-.caption{
+.caption {
   position: absolute;
   left: 105%;
-  z-index:-1;
+  z-index: -1;
   top: -4%;
   opacity: 0;
   width: 70%;
   transition: 0.5s;
   font-size: 60%;
-  font-weight:100;
+  font-weight: 100;
   text-align: center;
 }
 
-.light-theme .caption{
-    background-color: white;
-    color: black;
-  
+.light-theme .caption {
+  background-color: white;
+  color: black;
 }
 
-.dark-theme .caption{
-    background-color: black;
-    color: white;
-  
+.dark-theme .caption {
+  background-color: black;
+  color: white;
 }
 
-.dark-theme
-{
-    background: black;
+.dark-theme {
+  background: black;
 }
 
-
-.light-theme
-{
-    background: white;
+.light-theme {
+  background: white;
 }
 
-.pop1{
+.pop1 {
   font-weight: bold;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-.pop2{
+.pop2 {
   font-weight: bold;
-  text-decoration:none;
-
+  text-decoration: none;
 }
 
-.pop3{
+.pop3 {
   font-weight: bold;
-  text-decoration:none;
+  text-decoration: none;
 }

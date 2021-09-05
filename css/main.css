@@ -3,12 +3,12 @@
 }
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100vh;
   overflow: hidden;
-  transition:.2s;
+  transition: 0.2s;
 }
-
 
 /* Video */
 
@@ -75,7 +75,6 @@ body {
   mix-blend-mode: multiply;
 }
 
-
 /* Detail Text */
 
 .detail-text {
@@ -93,8 +92,6 @@ body {
   user-select: none;
   color: #838585;
 }
-
-
 
 /* Change Theme Button */
 
@@ -115,11 +112,11 @@ body {
 .light-theme .theme-btn {
   color: #1a1a1a;
   border-color: #1a1a1a;
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
 
 .dark-theme .theme-btn {
   color: #eee;
-    background-color: #eee;
+  background-color: #eee;
   border-color: #eee;
 }
