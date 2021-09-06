@@ -6,7 +6,7 @@ Joshua Verdejo's Personal Website
 
 ~~Make buttons for Contact, about, projects~~
 
-~~Fill out Contact page
+~~Fill out Contact page~~
   
 ~~Fill out About page~~
   * ~~add Resume~~
