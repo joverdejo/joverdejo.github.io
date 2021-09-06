@@ -8,14 +8,14 @@ Joshua Verdejo's Personal Website
 
 ~~Fill out Contact page
   
-~~Fill out About page
-  * ~~add Resume
-  * ~~add Personal Statement
+~~Fill out About page~~
+  * ~~add Resume~~
+  * ~~add Personal Statement~~
 
 Fill out Project page
-  * ~~Lassie (google site)
-  * ~~This website (github Repo)
-  * ~~BCI research (Link to youtube playlist)
+  * ~~Lassie (google site)~~
+  * ~~This website (github Repo)~~
+  * ~~BCI research (Link to youtube playlist)~~
   * Graduation cap (maybe?)
   * Music website + competition
 
